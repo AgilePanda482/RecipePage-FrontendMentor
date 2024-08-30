@@ -4,25 +4,27 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
+- [Frontend Mentor - Recipe page solution](#frontend-mentor---recipe-page-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+  - [Author](#author)
 
 ## Overview
 This is a simple page to practice HTML and CSS. The challenge comes from the Frontend Mentor page. 
 
 ### Screenshot
-![Normal Design](./screenshot.jpg)
+![Normal Design](./screenshots/pc.jpg)
 
-![Responsive Design](./screenshot.jpg)
+![Responsive Design](./screenshots/responsive.jpg)
 
 
 
 ### Links
-- Solution URL: [Link](https://your-solution-url.com)
+- Solution URL: [Link](https://recipepage-agilepanda482.netlify.app/)
 
 ### Built with
 - HTML5
