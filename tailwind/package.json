@@ -1,0 +1,32 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "recipe page with tailwind",
+  "keywords": [
+    "frontend",
+    "mentor",
+    "tailwind",
+    "mobile-firt",
+    "responsive"
+  ],
+  "homepage": "https://github.com/AgilePanda482/RecipePage-FrontendMentor#readme",
+  "bugs": {
+    "url": "https://github.com/AgilePanda482/RecipePage-FrontendMentor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgilePanda482/RecipePage-FrontendMentor.git"
+  },
+  "license": "MIT",
+  "author": "AgilePanda482",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "build:styles": "npx @tailwindcss/cli -i ./src/input.css -o ./src/dist/output.css --minify",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
