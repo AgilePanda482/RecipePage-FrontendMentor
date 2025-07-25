@@ -12,20 +12,21 @@
     <link rel="stylesheet" href="./dist/output.css" />
     <title>Frontend Mentor | Recipe Page</title>
   </head>
-  <body class="bg-background-card min-h-dvh font-outfit text-letters text-lg">
-    <main class="">
-      <div class="">
+  <body class="bg-background-card min-h-dvh font-outfit text-letters text-lg md:bg-background">
+    <main class= "md:flex md:justify-center">
+      <div class="md:bg-background-card md:max-w-2xl md:rounded-3xl md:my-32">
+
         <!-- Image section-->
 
-        <figure class="">
-          <img class="max-w-full" loading="lazy" src="./assets/images/image-omelette.jpeg" alt="A simple omelette"/>
+        <figure class="md:p-7">
+          <img class="max-w-full md:rounded-xl" loading="lazy" src="./assets/images/image-omelette.jpeg" alt="A simple omelette"/>
         </figure>
 
         <!-- Title Section -->
 
-        <section class="flex flex-col gap-8 p-7">
+        <div class="flex flex-col gap-8 p-7">
           <h1 class="font-young text-4xl">Simple Omelette Recipe</h1>
-          <p class=" ">
+          <p  >
             An easy and quick dish, perfect for any meal. This classic omelette
             combines beaten eggs cooked to perfection, optionally filled with
             your choice of cheese, vegetables, or meats.
@@ -33,7 +34,7 @@
 
           <!-- Preparation Time Section -->
 
-          <section class="bg-rose-section p-5 rounded-lg h-48 flex flex-col gap-2">
+          <section class="bg-rose-section p-5 rounded-lg flex flex-col gap-2">
             <h2 class="text-rose-subtitles font-semibold text-xl">
               Preparation time
             </h2>
@@ -42,21 +43,21 @@
                 <span class="text-rose-subtitles mr-4 text-2xl" aria-hidden="true">•</span>
                 <span>
                   <strong class="text-bold font-semibold">Total:</strong>
-                  <span class="  ">Approximately 10 minutes</span>
+                  <span>Approximately 10 minutes</span>
                 </span>
               </li>
               <li class="flex items-center">
                 <span class="text-rose-subtitles mr-4 text-2xl" aria-hidden="true">•</span>
                 <span>
                   <strong class="text-bold font-semibold">Preparation:</strong>
-                  <span class="  ">5 minutes</span>
+                  <span>5 minutes</span>
                 </span>
               </li>
               <li class="flex items-center">
                 <span class="text-rose-subtitles mr-4 text-2xl" aria-hidden="true">•</span>
                 <span>
                   <strong class="text-bold font-semibold">Cooking:</strong>
-                  <span class="  ">5 minutes</span>
+                  <span>5 minutes</span>
                 </span>
               </li>
             </ul>
@@ -69,33 +70,31 @@
             <ul class="flex flex-col gap-1">
               <li class="flex items-center">
                 <span class="text-brown-letters mr-4 text-2xl" aria-hidden="true">•</span>
-                <p class="  ">2-3 large eggs</p>
+                2-3 large eggs
               </li>
               <li class="flex items-center">
                 <span class="text-brown-letters mr-4 text-2xl" aria-hidden="true">•</span>
-                <p class="  ">Salt, to taste</p>
+                Salt, to taste
               </li>
               <li class="flex items-center">
                 <span class="text-brown-letters mr-4 text-2xl" aria-hidden="true">•</span>
-                <p class="  ">Pepper, to taste</p>
+                Pepper, to taste
               </li>
               <li class="flex items-center">
                 <span class="text-brown-letters mr-4 text-2xl" aria-hidden="true">•</span>
-                <p class="  ">
-                  1 tablespoon of butter or oil
-                </p>
+                1 tablespoon of butter or oil
               </li>
               <li class="flex items-center">
                 <span class="text-brown-letters mr-4 text-2xl" aria-hidden="true">•</span>
-                <p class="  ">
-                  Optional fillings: cheese, diced vegetables, cooked meats,
-                  herbs
-                </p>
+                Optional fillings: cheese, diced vegetables, cooked meats,
+                herbs
               </li>
             </ul>
           </section>
 
           <hr class="text-lines" />
+
+          <!-- Instructions Section -->
 
           <section class="flex flex-col gap-4">
             <h2 class="font-young text-3xl text-brown-letters">Instructions</h2>
@@ -162,7 +161,7 @@
               additional fillings.
             </p>
 
-            <table class="">
+            <table>
                 <thead>
                     <tr>
                         <th class="sr-only">Nutrient</th>
@@ -171,25 +170,25 @@
                 </thead>
               <tbody>
                 <tr class="border-b border-lines">
-                  <td class=" p-3">Calories</td>
+                  <th scope="row" class="font-normal text-left p-3">Calories</td>
                   <td class="text-brown-letters font-bold p-3">277kcal</td>
                 </tr>
                 <tr class="border-b border-lines">
-                  <td class=" p-3">Carbs</td>
+                  <th scope="row" class="font-normal text-left p-3">Carbs</td>
                   <td class="text-brown-letters font-bold p-3">0g</td>
                 </tr>
                 <tr class="border-b border-lines">
-                  <td class=" p-3">Protein</td>
+                  <th scope="row" class="font-normal text-left p-3">Protein</td>
                   <td class="text-brown-letters font-bold p-3">20g</td>
                 </tr>
                 <tr class="border-b border-lines">
-                  <td class=" p-3">Fat</td>
+                  <th scope="row" class="font-normal text-left p-3">Fat</td>
                   <td class="text-brown-letters font-bold p-3">22g</td>
                 </tr>
               </tbody>
             </table>
           </section>
-        </section>
+        </div>
       </div>
     </main>
     <footer class="flex justify-center">
