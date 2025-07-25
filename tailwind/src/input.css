@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+    --color-background: hsl(30, 54%, 90%);
+    --color-background-card: hsl(0, 0%, 100%);
+    --color-bold: hsl(24, 5%, 18%);
+    --color-letters: hsl(30, 10%, 34%);
+    --color-lines: hsl(30, 18%, 87%);
+    --color-rose-section: hsl(330, 100%, 98%);
+    --color-rose-subtitles: hsl(332, 51%, 32%);
+    --color-brown-letters: hsl(14, 45%, 36%);
+
+    --font-outfit: 'Outfit', system-ui, sans-serif;
+    --font-young: 'Young Serif', system-ui, sans-serif;
+}
